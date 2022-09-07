@@ -1,9 +1,25 @@
 /*****************Colours***************/
-body {
-    background-color: aqua;
+.menu-color-home {
+    background-color: #030e4f;
 }
-.navbar {
-    background-color: red !important;
+
+.menu-color-resume {
+    background-color: #f49f1c;
+}
+
+.menu-color-contact {
+    background-color: #551fbd;
+}
+
+.menu-color-download {
+    background-color: #5e001f;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+    background-color: beige;
 }
 
 .logo {
@@ -17,4 +33,17 @@ body {
 
 .menu {
     text-align: center;
+    font-weight: 600;
+    height: 90px;
+    padding: 20px;
+}
+
+.menu a i {
+    font-size: 26px;
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e6e6e6;
 }
