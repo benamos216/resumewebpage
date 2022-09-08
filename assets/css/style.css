@@ -30,6 +30,22 @@ body {
     background-repeat: no-repeat;
     min-height: 500px;
 }
+ 
+.logo h1 {
+    padding-left: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+}
+
+.logo h2 {
+    padding-left: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: underline;
+}
 
 .navbar {
     height: 90px;
